@@ -124,4 +124,4 @@ function showLegend(message, duration) {
 }
 
 // Example usage:
-showLegend("Click right for nav bar", 3); 
+showLegend("Click right for nav bar ==>", 3); 
