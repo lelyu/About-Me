@@ -110,3 +110,18 @@
   });
 
 })()
+
+
+
+function showLegend(message, duration) {
+  const legend = document.getElementById('legend-message');
+  legend.textContent = message;
+  legend.classList.add('show'); // Make it visible
+
+  setTimeout(() => {
+    legend.classList.remove('show'); // Hide after duration
+  }, duration * 1000); // Duration in milliseconds
+}
+
+// Example usage:
+showLegend("Click right for nav bar", 3); 
