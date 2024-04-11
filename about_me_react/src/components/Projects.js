@@ -8,7 +8,6 @@ import { useRef } from "react";
 const Projects = () => {
 	const isotopeRef = useRef(null);
 	const [filterKey, setFilterKey] = useState("*");
-
 	useEffect(() => {
 		AOS.init(); // Initialize AOS
 
