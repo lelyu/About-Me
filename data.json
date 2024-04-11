@@ -1,0 +1,126 @@
+{
+	"about": {
+		"name": "Le Lyu",
+		"description": "A senior at Boston College, I double major in Econ and CS. I work as a Lab Consultant and Teaching Assistant with a passion for coding, financial forecasting, data analysis, and task automation.",
+		"education": {
+			"institution": "Boston College",
+			"graduationYear": 2024,
+			"GPA": 3.7,
+			"achievements": ["Dean's List"],
+			"majors": ["Computer Science (BS)", "Economics (BA)"]
+		},
+		"interests": [
+			"Learning new languages (English, Mandarin, Cantonese)",
+			"Playing League of Legends (ID: Lok852)",
+			"Caring for pets (owns a 5-month old Golden British Long Hair)",
+			"Playing Chess (Recreational but competitive player)"
+		],
+		"contact": {
+			"LinkedIn": "https://www.linkedin.com/in/lelyu/",
+			"GitHub": "https://github.com/lelyu",
+			"Email": ["lyulelok@gmail.com", "lyule@bc.edu"],
+			"Phone": "617-834-4377"
+		}
+	},
+	"experience": {
+		"jobs": [
+			{
+				"title": "Lab Consultant at Digital Humanities Lab, Boston College",
+				"duration": "Jan 2023 - May 2024"
+			},
+			{
+				"title": "Software Engineer at Bingo",
+				"duration": "Jun 2023 - Aug 2023"
+			},
+			{
+				"title": "Teaching Assistant for the course Data Visualization",
+				"duration": "Aug 2023 - Dec 2023"
+			},
+			{
+				"title": "Teaching Assistant for the course Algorithm",
+				"duration": "Jan 2024 - May 2024"
+			}
+		],
+		"skills": [
+			"Coding Languages: Python, Java, JavaScript",
+			"Coding Frameworks: Django, React, Vue",
+			"Data Analysis: SPSS, Stata, R",
+			"Data Visualization: Tableau, D3.js",
+			"Others: MySQL, HTML, CSS, CI/CD"
+		]
+	},
+	"projects": [
+		{
+			"id": "project1",
+			"skills": ["Tableau", "D3"],
+			"title": "Is college worth it?",
+			"category": "Data Visualization",
+			"image": "/img/project-college (1).jpg",
+			"link": "https://mini-project-2-lsp.glitch.me/",
+			"description": "Created in Fall 2022 during a Data Visualization course, this project employs Tableau, HTML, CSS, and JavaScript to illuminate the trends in college tuition and its impact on income. It offers interactive visualizations that reveal changes in tuition costs over time, differences in regional education expenses, and the economic benefits of a college degree. This concise yet comprehensive analysis serves as a valuable resource for students, educators, and policymakers, highlighting the significant role of higher education in shaping financial futures."
+		},
+		{
+			"id": "project2",
+			"skills": ["Tableau", "D3"],
+			"title": "What causes climate change?",
+			"category": "Data Visualization",
+			"image": "/img/project-climate-change.png",
+			"link": "https://final-project--vis.glitch.me/",
+			"description": "Created in Fall 2022 during a Data Visualization course, this project employs Tableau, HTML, CSS, and D3 to illuminate the impact of climate change. It offers interactive visualizations that reveal changes in CO2 emission across countries and over time. The audience have the ability to interact with the site in many ways, such as map clicking, searching, and comparing countries. This project serves as a valuable resource for students, educators, and policymakers, highlighting the significant impact of climate change on our daily lives."
+		},
+		{
+			"id": "project3",
+			"skills": ["SPSS", "Econometrics"],
+			"title": "What model best predicts revenue for Domino's Pizza?",
+			"category": "Financial Forecasting",
+			"image": "/img/Dominos.png",
+			"link": "https://docs.google.com/document/d/e/2PACX-1vRp_KqRSoO0fNGZMxevrnoXxvaNgotYWPSec3N-STQJ1KBt9cXCTpkXi_wvlee5QJIxBtXLd91_fKA3/pub",
+			"description": "Written as a final project for the course Financial Forecasting in Fall 2023, this paper explores the relationship between Domino's Pizza's revenue and its various financial and non-financial factors. The paper also compares the performance of different models in predicting revenue, such as between Multiple Regression, ARIMA, Exponential Smoothing, etc. The models are iteratively developed using SPSS by IBM. A python automation script (availible in my GitHub Page) was developed to automate the process in developing the best ARIMA model."
+		},
+		{
+			"id": "project4",
+			"title": "Gmail Unstarrer",
+			"skills": ["Python", "Google Cloud Developer Platform"],
+			"category": "Automation",
+			"image": "/img/project-gmail_unstarrer.jpg",
+			"link": "https://github.com/lelyu/Gmail-Unstarrer",
+			"description": "One morning, I discovered that every email in my Gmail was mistakenly marked as important with a star—a real mess for someone who likes to keep things tidy. Unstarring them one by one wasn't practical, so I took matters into my own hands. I wrote a simple computer program that quickly unstarred all my emails, bringing order back to my inbox with just one click. It was a quick, smart fix that saved me time and a lot of frustration."
+		},
+		{
+			"id": "project5",
+			"title": "Google Drive Automation",
+			"category": "Automation",
+			"image": "/img/project-google_drive.png",
+			"skills": ["Python", "Google Cloud Developer Platform"],
+			"link": "https://github.com/lelyu/Google-Drive-Automation-Script",
+			"description": "In the midst of my role as a Teaching Assistant for a Data Visualization course, I encountered a daunting challenge: the laborious task of manually organizing and uploading student reviews to individual Google Drive folders. Each student reviewed three peers, multiplying the workload and complexity. Motivated to find a more efficient solution, I turned to Python, my trusted ally in coding. Crafting a script with a blend of ingenuity and technical prowess, I created a system that automatically sorted these reviews by student names, deftly created dedicated folders on Google Drive, and seamlessly uploaded the files. This not only transformed a tedious process into a swift, automated one but also stood as a testament to the practical power of programming in solving real-world problems. It was a journey that melded my skills in coding with a drive to enhance academic processes, making a significant impact on the course's administrative efficiency."
+		},
+		{
+			"id": "project6",
+			"title": "Data Indexing Tool",
+			"category": "Data Indexing",
+			"image": "/img/WTD.png",
+			"skills": ["Django", "React"],
+			"link": "https://lelyu.github.io/bcdhprojectslab/",
+			"description": "The World's Traveller and Description Project is developed by the Boston College Digital Humanities Lab to provide a platform for students or anyone working on historical data to visualize their readings and experiences of the authors' travelling record. The indexing project is a tool to help the lab to index the projects and descriptions."
+		}
+	],
+	"news": [
+		{
+			"date": "March 2024",
+			"content": "Hit leetcode 300 questions.."
+		},
+		{
+			"date": "Jan 2024",
+			"content": "TA for Algorithm with professor Alexander Creiner."
+		},
+		{
+			"date": "Aug 2023",
+			"content": "TA for Data Visualization with professor Nam Wook Kim."
+		},
+		{
+			"date": "Jan 2023",
+			"content": "Lab Consultant with Dr. Bee Lehman."
+		}
+	]
+}
