@@ -1,0 +1,102 @@
+{
+	"about": {
+		"name": "Le Lyu",
+		"description": "A senior at Boston College, I double major in Econ and CS. I work as a Lab Consultant and Teaching Assistant with a passion for coding, financial forecasting, data analysis, and task automation.",
+		"education": {
+			"institution": "Boston College",
+			"graduationYear": 2024,
+			"GPA": 3.7,
+			"achievements": ["Dean's List"],
+			"majors": ["Computer Science (BS)", "Economics (BA)"]
+		},
+		"interests": [
+			"Learning new languages (English, Mandarin, Cantonese)",
+			"Playing League of Legends (ID: Lok852)",
+			"Caring for pets (owns a 5-month old Golden British Long Hair)",
+			"Playing Chess (Recreational but competitive player)"
+		],
+		"contact": {
+			"LinkedIn": "https://www.linkedin.com/in/lelyu/",
+			"GitHub": "https://github.com/lelyu",
+			"Email": ["lyulelok@gmail.com", "lyule@bc.edu"],
+			"Phone": "617-834-4377"
+		}
+	},
+	"experience": {
+		"jobs": [
+			{
+				"title": "Lab Consultant at Digital Humanities Lab, Boston College",
+				"duration": "Jan 2023 - May 2024"
+			},
+			{
+				"title": "Software Engineer at Bingo",
+				"duration": "Jun 2023 - Aug 2023"
+			},
+			{
+				"title": "Teaching Assistant for the course Data Visualization",
+				"duration": "Aug 2023 - Dec 2023"
+			},
+			{
+				"title": "Teaching Assistant for the course Algorithm",
+				"duration": "Jan 2024 - May 2024"
+			}
+		],
+		"skills": [
+			"Coding Languages: Python, Java, JavaScript",
+			"Coding Frameworks: Django, React, Vue",
+			"Data Analysis: SPSS, Stata, R",
+			"Data Visualization: Tableau, D3.js",
+			"Others: MySQL, HTML, CSS, CI/CD"
+		]
+	},
+	"projects": [
+		{
+			"title": "Is college worth it?",
+			"category": "Data Visualization",
+			"image": "img/project-college_tuition.jpg"
+		},
+		{
+			"title": "What causes climate change?",
+			"category": "Data Visualization",
+			"image": "img/project-climate_change.jpg"
+		},
+		{
+			"title": "What model best predicts revenue for Domino's Pizza?",
+			"category": "Financial Forecasting",
+			"image": "img/project-dominos.jpg"
+		},
+		{
+			"title": "Gmail Unstarrer",
+			"category": "Automation",
+			"image": "img/project-gmail_unstarrer-small.jpg"
+		},
+		{
+			"title": "Google Drive Automation",
+			"category": "Automation",
+			"image": "img/project-google_drive-small.png"
+		},
+		{
+			"title": "Data Indexing Tool",
+			"category": "Data Indexing",
+			"image": "img/project-wtd.png"
+		}
+	],
+	"news": [
+		{
+			"date": "March 2024",
+			"content": "Hit leetcode 300 questions.."
+		},
+		{
+			"date": "Jan 2024",
+			"content": "TA for Algorithm with professor Alexander Creiner."
+		},
+		{
+			"date": "Aug 2023",
+			"content": "TA for Data Visualization with professor Nam Wook Kim."
+		},
+		{
+			"date": "Jan 2023",
+			"content": "Lab Consultant with Dr. Bee Lehman."
+		}
+	]
+}

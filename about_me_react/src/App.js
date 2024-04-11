@@ -9,6 +9,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ExperiencePage from "./components/ExperiencePage";
 import ProjectsPage from "./components/ProjectsPage";
+import AboutMePage from "./components/AboutMePage";
+import NewsPage from "./components/NewsPage";
 
 function App() {
 	return (
@@ -17,6 +19,8 @@ function App() {
 				<Route path="/" element={<HomePage />} />
 				<Route path="/experience" element={<ExperiencePage />} />
 				<Route path="/projects" element={<ProjectsPage />} />
+				<Route path="/about" element={<AboutMePage />} />
+				<Route path="/news" element={<NewsPage />} />
 			</Routes>
 		</Router>
 	);
