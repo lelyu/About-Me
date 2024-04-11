@@ -1,4 +1,5 @@
 {
+  
   "name": "about_me_react",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,7 @@
     "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

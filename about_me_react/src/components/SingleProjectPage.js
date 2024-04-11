@@ -79,7 +79,7 @@ const SingleProjectPage = () => {
 
 									<p>
 										<a
-											href="https://mini-project-2-lsp.glitch.me/"
+											href={projectData.link}
 											className="readmore">
 											Visit This Project
 										</a>

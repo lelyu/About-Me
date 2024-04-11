@@ -8,7 +8,6 @@ import ProjectsPage from "./components/ProjectsPage";
 import AboutMePage from "./components/AboutMePage";
 import NewsPage from "./components/NewsPage";
 import SingleProjectPage from "./components/SingleProjectPage";
-
 function App() {
 	return (
 		<Router>
