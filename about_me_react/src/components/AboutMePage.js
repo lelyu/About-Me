@@ -1,27 +1,11 @@
 import React from "react";
 import NavBar from "./NavBar";
-
+import Header from "./Header";
 const AboutMePage = () => {
 	return (
 		<div>
 			<NavBar />
-			<nav className="navbar navbar-light custom-navbar">
-				<div className="container">
-					<a className="navbar-brand" href="/">
-						Home
-					</a>
-					<p id="legend-message" className="legend-message">
-						click top right for nav bar
-					</p>
-					<a
-						href="#"
-						className="burger"
-						data-bs-toggle="collapse"
-						data-bs-target="#main-navbar">
-						<span></span>
-					</a>
-				</div>
-			</nav>
+			<Header />
 			<main id="main">
 				<section className="section pb-5">
 					<div className="container">
@@ -136,7 +120,7 @@ const AboutMePage = () => {
 								<p>
 									<img
 										src="img/my_photo.png"
-										alt="Image"
+										alt="img"
 										className="img-fluid"
 									/>
 								</p>
@@ -161,7 +145,7 @@ const AboutMePage = () => {
 								<p>
 									<a
 										href="https://drive.google.com/file/d/18Lj6OQrH3xquFdsMIFqP4bNLmeVWsQQO/view?usp=sharing"
-										class="readmore">
+										className="readmore">
 										Download my CV
 									</a>
 								</p>

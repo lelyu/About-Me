@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
 	return (
@@ -19,21 +20,21 @@ const Projects = () => {
 					data-aos="fade-up"
 					data-aos-delay="100">
 					<div id="filters" className="filters">
-						<a href="#" data-filter="*" className="active">
+						<Link to="#" data-filter="*" className="active">
 							All
-						</a>
-						<a href="#" data-filter=".vis">
+						</Link>
+						<Link to="#" data-filter=".vis">
 							Data Visualization
-						</a>
-						<a href="#" data-filter=".fin">
+						</Link>
+						<Link to="#" data-filter=".fin">
 							Financial Forecasting
-						</a>
-						<a href="#" data-filter=".auto">
+						</Link>
+						<Link to="#" data-filter=".auto">
 							Automation
-						</a>
-						<a href="#" data-filter=".index">
+						</Link>
+						<Link to="#" data-filter=".index">
 							Data Indexing
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -43,8 +44,8 @@ const Projects = () => {
 				data-aos="fade-up"
 				data-aos-delay="200">
 				<div className="item vis col-sm-6 col-md-4 col-lg-4 mb-4">
-					<a
-						href="project-college.html"
+					<Link
+						to="/projects/project1"
 						className="item-wrap fancybox">
 						<div className="work-info">
 							<h3>Is college worth it?</h3>
@@ -55,11 +56,11 @@ const Projects = () => {
 							src="/img/project-college_tuition.jpg"
 							alt="Project College"
 						/>
-					</a>
+					</Link>
 				</div>
 				<div className="item vis col-sm-6 col-md-4 col-lg-4 mb-4">
-					<a
-						href="project-climate.html"
+					<Link
+						to="/projects/project2"
 						className="item-wrap fancybox">
 						<div className="work-info">
 							<h3>What causes climate change?</h3>
@@ -70,10 +71,12 @@ const Projects = () => {
 							src="img/project-climate_change.jpg"
 							alt="Project Climate"
 						/>
-					</a>
+					</Link>
 				</div>
 				<div className="item fin col-sm-6 col-md-4 col-lg-4 mb-4">
-					<a href="dominos.html" className="item-wrap fancybox">
+					<Link
+						to="/projects/project3"
+						className="item-wrap fancybox">
 						<div className="work-info">
 							<h3>
 								What model best predicts revenue for Domino's
@@ -86,11 +89,11 @@ const Projects = () => {
 							src="img/project-dominos.jpg"
 							alt="Project Dominos"
 						/>
-					</a>
+					</Link>
 				</div>
 				<div className="item auto col-sm-6 col-md-4 col-lg-4 mb-4">
-					<a
-						href="gamil-unstarrer.html"
+					<Link
+						to="/projects/project4"
 						className="item-wrap fancybox">
 						<div className="work-info">
 							<h3>Gmail Unstarrer</h3>
@@ -101,11 +104,11 @@ const Projects = () => {
 							src="img/project-gmail_unstarrer-small.jpg"
 							alt="Project Gmail Unstarrer"
 						/>
-					</a>
+					</Link>
 				</div>
 				<div className="item auto col-sm-6 col-md-4 col-lg-4 mb-4">
-					<a
-						href="google-drive-automation.html"
+					<Link
+						to="/projects/project5"
 						className="item-wrap fancybox">
 						<div className="work-info">
 							<h3>Google Drive Automation</h3>
@@ -116,10 +119,12 @@ const Projects = () => {
 							src="img/project-google_drive-small.png"
 							alt="Project Google Drive Automation"
 						/>
-					</a>
+					</Link>
 				</div>
 				<div className="item index col-sm-6 col-md-4 col-lg-4 mb-4">
-					<a href="project-wtd.html" className="item-wrap fancybox">
+					<Link
+						to="/projects/project6"
+						className="item-wrap fancybox">
 						<div className="work-info">
 							<h3>Data Indexing Tool</h3>
 							<span>Data Indexing</span>
@@ -129,7 +134,7 @@ const Projects = () => {
 							src="img/project-wtd.png"
 							alt="Project Data Indexing Tool"
 						/>
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>

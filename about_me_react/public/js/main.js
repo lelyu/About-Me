@@ -115,14 +115,14 @@
 })();
 
 // added for assignment 5 in CSCI2254
-function showLegend(message, duration) {
-	const legend = document.getElementById("legend-message");
-	legend.textContent = message;
-	legend.classList.add("show"); // Make it visible
+// function showLegend(message, duration) {
+// 	const legend = document.getElementById("legend-message");
+// 	legend.textContent = message;
+// 	legend.classList.add("show"); // Make it visible
 
-	setTimeout(() => {
-		legend.classList.remove("show"); // Hide after duration
-	}, duration * 1000); // Duration in milliseconds
-}
+// 	setTimeout(() => {
+// 		legend.classList.remove("show"); // Hide after duration
+// 	}, duration * 1000); // Duration in milliseconds
+// }
 
 // showLegend("Click right for nav bar ==>", 3);

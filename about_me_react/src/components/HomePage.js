@@ -2,28 +2,13 @@ import React from "react";
 import NavBar from "./NavBar";
 import Projects from "./Projects";
 import Experience from "./Experience";
-
+import Header from "./Header";
+import { Link } from "react-router-dom";
 const HomePage = () => {
 	return (
 		<div>
 			<NavBar />
-			<nav className="navbar navbar-light custom-navbar">
-				<div className="container">
-					<a className="navbar-brand" href="/">
-						Home
-					</a>
-					<p id="legend-message" className="legend-message">
-						click top right for nav bar
-					</p>
-					<a
-						href="#"
-						className="burger"
-						data-bs-toggle="collapse"
-						data-bs-target="#main-navbar">
-						<span></span>
-					</a>
-				</div>
-			</nav>
+			<Header />
 			<main id="main">
 				<section className="section site-portfolio">
 					<Projects />
@@ -46,7 +31,7 @@ const HomePage = () => {
 									className="client-logo">
 									<img
 										src="img/boston_college_logo.png"
-										alt="Image"
+										alt="img"
 										className="img-fluid"
 									/>
 								</a>
@@ -57,7 +42,7 @@ const HomePage = () => {
 									className="client-logo">
 									<img
 										src="img/Bingo_Logo.png"
-										alt="Image"
+										alt="img"
 										className="img-fluid"
 									/>
 								</a>
@@ -71,11 +56,11 @@ const HomePage = () => {
 				</section>
 			</main>
 
-			<a
-				href="#"
+			<Link
+				to="#"
 				className="back-to-top d-flex align-items-center justify-content-center">
 				<i className="bi bi-arrow-up-short"></i>
-			</a>
+			</Link>
 		</div>
 	);
 };

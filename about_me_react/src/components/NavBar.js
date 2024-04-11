@@ -57,9 +57,9 @@ const NavBar = () => {
 					<div className="col-md-4 d-none d-md-block">
 						<h3>Contact</h3>
 						<p>
-							<a href="#">lyulelok@gmail.com</a> <br />
-							<a href="#">lyule@bc.edu</a> <br />
-							<a href="#">617-834-4377</a>
+							<Link to="#">lyulelok@gmail.com</Link> <br />
+							<Link to="#">lyule@bc.edu</Link> <br />
+							<Link to="#">617-834-4377</Link>
 						</p>
 					</div>
 				</div>
