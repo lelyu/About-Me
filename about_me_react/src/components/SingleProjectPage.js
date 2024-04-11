@@ -63,18 +63,11 @@ const SingleProjectPage = () => {
 
 									<h4 className="h4 mb-3">Skills Involved</h4>
 									<ul className="list-unstyled list-line mb-5">
-										<li>Data Visualization with Tableau</li>
-										<li>
-											Web Development (HTML, CSS,
-											JavaScript)
-										</li>
-										<li>
-											Interactive User Interface Design
-										</li>
-										<li>
-											Statistical Analysis and Data
-											Interpretation
-										</li>
+										{projectData.skills.map(
+											(skill, index) => (
+												<li key={index}>{skill}</li>
+											)
+										)}
 									</ul>
 
 									<p>

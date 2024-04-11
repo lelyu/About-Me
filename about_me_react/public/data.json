@@ -52,6 +52,7 @@
 	"projects": [
 		{
 			"id": "project1",
+			"skills": ["Tableau", "D3"],
 			"title": "Is college worth it?",
 			"category": "Data Visualization",
 			"image": "/img/project-college (1).jpg",
@@ -60,6 +61,7 @@
 		},
 		{
 			"id": "project2",
+			"skills": ["Tableau", "D3"],
 			"title": "What causes climate change?",
 			"category": "Data Visualization",
 			"image": "/img/project-climate-change.png",
@@ -68,6 +70,7 @@
 		},
 		{
 			"id": "project3",
+			"skills": ["SPSS", "Econometrics"],
 			"title": "What model best predicts revenue for Domino's Pizza?",
 			"category": "Financial Forecasting",
 			"image": "/img/Dominos.png",
@@ -77,6 +80,7 @@
 		{
 			"id": "project4",
 			"title": "Gmail Unstarrer",
+			"skills": ["Python", "Google Cloud Developer Platform"],
 			"category": "Automation",
 			"image": "/img/project-gmail_unstarrer.jpg",
 			"link": "https://github.com/lelyu/Gmail-Unstarrer",
@@ -87,6 +91,7 @@
 			"title": "Google Drive Automation",
 			"category": "Automation",
 			"image": "/img/project-google_drive.png",
+			"skills": ["Python", "Google Cloud Developer Platform"],
 			"link": "https://github.com/lelyu/Google-Drive-Automation-Script",
 			"description": "In the midst of my role as a Teaching Assistant for a Data Visualization course, I encountered a daunting challenge: the laborious task of manually organizing and uploading student reviews to individual Google Drive folders. Each student reviewed three peers, multiplying the workload and complexity. Motivated to find a more efficient solution, I turned to Python, my trusted ally in coding. Crafting a script with a blend of ingenuity and technical prowess, I created a system that automatically sorted these reviews by student names, deftly created dedicated folders on Google Drive, and seamlessly uploaded the files. This not only transformed a tedious process into a swift, automated one but also stood as a testament to the practical power of programming in solving real-world problems. It was a journey that melded my skills in coding with a drive to enhance academic processes, making a significant impact on the course's administrative efficiency."
 		},
@@ -95,6 +100,7 @@
 			"title": "Data Indexing Tool",
 			"category": "Data Indexing",
 			"image": "/img/WTD.png",
+			"skills": ["Django", "React"],
 			"link": "https://lelyu.github.io/bcdhprojectslab/",
 			"description": "The World's Traveller and Description Project is developed by the Boston College Digital Humanities Lab to provide a platform for students or anyone working on historical data to visualize their readings and experiences of the authors' travelling record. The indexing project is a tool to help the lab to index the projects and descriptions."
 		}

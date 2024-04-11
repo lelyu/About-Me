@@ -51,34 +51,46 @@
 	},
 	"projects": [
 		{
+			"id": "project1",
 			"title": "Is college worth it?",
 			"category": "Data Visualization",
-			"image": "assets/img/project-college_tuition.jpg"
+			"image": "assets/img/project-college_tuition.jpg",
+			"skills": ["Tableau", "D3"]
 		},
 		{
+			"id": "project2",
 			"title": "What causes climate change?",
 			"category": "Data Visualization",
-			"image": "assets/img/project-climate_change.jpg"
+			"image": "assets/img/project-climate_change.jpg",
+			"skills": ["Tableau", "D3"]
 		},
 		{
+			"id": "project3",
 			"title": "What model best predicts revenue for Domino's Pizza?",
 			"category": "Financial Forecasting",
-			"image": "assets/img/project-dominos.jpg"
+			"image": "assets/img/project-dominos.jpg",
+			"skills": ["SPSS", "Econometrics"]
 		},
 		{
+			"id": "project4",
 			"title": "Gmail Unstarrer",
 			"category": "Automation",
-			"image": "assets/img/project-gmail_unstarrer-small.jpg"
+			"image": "assets/img/project-gmail_unstarrer-small.jpg",
+			"skills": ["Python", "Google Cloud Developer Platform"]
 		},
 		{
+			"id": "project5",
 			"title": "Google Drive Automation",
 			"category": "Automation",
-			"image": "assets/img/project-google_drive-small.png"
+			"image": "assets/img/project-google_drive-small.png",
+			"skills": ["Python", "Google Cloud Developer Platform"]
 		},
 		{
+			"id": "project6",
 			"title": "Data Indexing Tool",
 			"category": "Data Indexing",
-			"image": "assets/img/project-wtd.png"
+			"image": "assets/img/project-wtd.png",
+			"skills": ["Django", "React"]
 		}
 	],
 	"news": [

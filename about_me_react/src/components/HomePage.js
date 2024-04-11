@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Experience from "./Experience";
 import Header from "./Header";
 import { Link } from "react-router-dom";
+import News from "./News";
 const HomePage = () => {
 	return (
 		<div>
@@ -54,6 +55,7 @@ const HomePage = () => {
 				<section className="section services">
 					<Experience />
 				</section>
+				<News />
 			</main>
 
 			<Link
