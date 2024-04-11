@@ -1,7 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Isotope from "isotope-layout";
+import AOS from "aos";
+import { useEffect, useState } from "react";
+import "aos/dist/aos.css"; // Make sure to import AOS styles
+import { useRef } from "react";
 const Projects = () => {
+	const isotopeRef = useRef(null);
+	const [filterKey, setFilterKey] = useState("*");
+
+	useEffect(() => {
+		AOS.init(); // Initialize AOS
+
+		isotopeRef.current = new Isotope("#portfolio-grid", {
+			itemSelector: ".item",
+		});
+
+		return () => isotopeRef.current.destroy(); // Cleanup Isotope instance
+	}, []);
+
+	// Effect to handle filtering
+	useEffect(() => {
+		if (filterKey === "*") {
+			isotopeRef.current.arrange({ filter: "*" });
+		} else {
+			isotopeRef.current.arrange({ filter: filterKey });
+		}
+
+		AOS.refresh(); // Refresh AOS for any layout changes
+	}, [filterKey]);
+
+	const handleFilterClick = (e, filter) => {
+		e.preventDefault();
+		setFilterKey(filter); // Update filter key based on the button clicked
+	};
 	return (
 		<div className="container">
 			<div className="row mb-5 align-items-center">
@@ -20,21 +52,31 @@ const Projects = () => {
 					data-aos="fade-up"
 					data-aos-delay="100">
 					<div id="filters" className="filters">
-						<Link to="#" data-filter="*" className="active">
+						<button
+							onClick={(e) => handleFilterClick(e, "*")}
+							className={filterKey === "*" ? "active" : ""}>
 							All
-						</Link>
-						<Link to="#" data-filter=".vis">
+						</button>
+						<button
+							onClick={(e) => handleFilterClick(e, ".vis")}
+							className={filterKey === ".vis" ? "active" : ""}>
 							Data Visualization
-						</Link>
-						<Link to="#" data-filter=".fin">
+						</button>
+						<button
+							onClick={(e) => handleFilterClick(e, ".fin")}
+							className={filterKey === ".fin" ? "active" : ""}>
 							Financial Forecasting
-						</Link>
-						<Link to="#" data-filter=".auto">
+						</button>
+						<button
+							onClick={(e) => handleFilterClick(e, ".auto")}
+							className={filterKey === ".auto" ? "active" : ""}>
 							Automation
-						</Link>
-						<Link to="#" data-filter=".index">
+						</button>
+						<button
+							onClick={(e) => handleFilterClick(e, ".index")}
+							className={filterKey === ".index" ? "active" : ""}>
 							Data Indexing
-						</Link>
+						</button>
 					</div>
 				</div>
 			</div>
