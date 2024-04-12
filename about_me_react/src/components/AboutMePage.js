@@ -146,9 +146,12 @@ const AboutMePage = () => {
 									<a
 										href="https://drive.google.com"
 										className="readmore">
-										Download my CV (Currently Disabled.
-										Please reach out to me via email.)
+										Download my CV
 									</a>
+									<p>
+										CV is currently disabled. Please reach
+										out to me via email.
+									</p>
 								</p>
 							</div>
 						</div>
