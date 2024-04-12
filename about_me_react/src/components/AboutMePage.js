@@ -25,17 +25,17 @@ const AboutMePage = () => {
 							<div
 								className="col-md-4 ml-auto order-2"
 								data-aos="fade-up">
-								<h3 className="h3 mb-4">Coding Skills</h3>
+								<h3 className="h3 mb-4">Dev Tools I know:</h3>
 								<ul className="list-unstyled">
 									<li className="mb-3">
 										<div className="d-flex mb-1">
-											<strong>Python</strong>
+											<strong>React</strong>
 										</div>
 										<div className="progress custom-progress">
 											<div
 												className="progress-bar"
 												role="progressbar"
-												style={{ width: "100%" }}
+												style={{ width: "80%" }}
 												aria-valuenow="80"
 												aria-valuemin="0"
 												aria-valuemax="100"></div>
@@ -43,13 +43,13 @@ const AboutMePage = () => {
 									</li>
 									<li className="mb-3">
 										<div className="d-flex mb-1">
-											<strong>Java</strong>
+											<strong>Vue</strong>
 										</div>
 										<div className="progress custom-progress">
 											<div
 												className="progress-bar"
 												role="progressbar"
-												style={{ width: "100%" }}
+												style={{ width: "70%" }}
 												aria-valuenow="96"
 												aria-valuemin="0"
 												aria-valuemax="100"></div>
@@ -63,7 +63,7 @@ const AboutMePage = () => {
 											<div
 												className="progress-bar"
 												role="progressbar"
-												style={{ width: "80%" }}
+												style={{ width: "60%" }}
 												aria-valuenow="99"
 												aria-valuemin="0"
 												aria-valuemax="100"></div>
@@ -71,42 +71,14 @@ const AboutMePage = () => {
 									</li>
 									<li className="mb-3">
 										<div className="d-flex mb-1">
-											<strong>Vue</strong>
+											<strong>Spring</strong>
 										</div>
 										<div className="progress custom-progress">
 											<div
 												className="progress-bar"
 												role="progressbar"
-												style={{ width: "80%" }}
+												style={{ width: "50%" }}
 												aria-valuenow="87"
-												aria-valuemin="0"
-												aria-valuemax="100"></div>
-										</div>
-									</li>
-									<li className="mb-3">
-										<div className="d-flex mb-1">
-											<strong>React</strong>
-										</div>
-										<div className="progress custom-progress">
-											<div
-												className="progress-bar"
-												role="progressbar"
-												style={{ width: "60%" }}
-												aria-valuenow="85"
-												aria-valuemin="0"
-												aria-valuemax="100"></div>
-										</div>
-									</li>
-									<li className="mb-3">
-										<div className="d-flex mb-1">
-											<strong>JavaScript</strong>
-										</div>
-										<div className="progress custom-progress">
-											<div
-												className="progress-bar"
-												role="progressbar"
-												style={{ width: "80%" }}
-												aria-valuenow="88"
 												aria-valuemin="0"
 												aria-valuemax="100"></div>
 										</div>
@@ -125,22 +97,10 @@ const AboutMePage = () => {
 									/>
 								</p>
 								<p>
-									I chose to double major in Computer Science
-									and Economics because I am interested in
-									applying technology in the business world. I
-									am graduating in May, 2024 and I am looking
-									for a full-time job in related fields.
+									I like to apply technology in the business
+									world and help others.
 								</p>
-								<p>
-									In work, I value respect, communication, and
-									willingness to learn.
-								</p>
-
-								<p>
-									Two mottos I live by are: "Live Free or Die"
-									(New Hampshire's motto) and "Ever to Excel"
-									(Boston College's motto)
-								</p>
+								<p>In work, I value respect the most.</p>
 
 								<p>
 									<a
