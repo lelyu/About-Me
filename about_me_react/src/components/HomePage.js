@@ -10,7 +10,25 @@ const HomePage = () => {
 		<div>
 			<NavBar />
 			<Header />
+
 			<main id="main">
+				<br />
+				<br />
+				<section className="intro-section" data-aos="fade-up">
+					<div className="container">
+						<div className="row">
+							<div className="col-lg-12">
+								<h2>Hello World, I'm Le Lyu</h2>
+								<p>
+									Lab Consultant and Teaching Assistant at
+									Boston College with a passion for coding,
+									financial forecasting, data analysis, and
+									task automation.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
 				<section className="section site-portfolio">
 					<Projects />
 				</section>

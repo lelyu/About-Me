@@ -1,6 +1,22 @@
 import React from "react";
-
+import { useState, useEffect } from "react";
+import SearchBar from "./SearchBar";
 const News = () => {
+	const [news, setNews] = useState(null);
+	useEffect(() => {
+		// Fetch the data.json file from the public folder
+		fetch("/data.json")
+			.then((response) => {
+				return response.json();
+			})
+			.then((data) => {
+				setNews(data.news);
+			});
+	}, []);
+
+	if (!news) {
+		return <div>Loading...</div>;
+	}
 	return (
 		<div>
 			<main id="main">
@@ -17,7 +33,24 @@ const News = () => {
 					<div className="site-section pb-0 services">
 						<div className="container">
 							<div className="row">
-								<div
+								<SearchBar
+									data={news}
+									renderFilteredData={(filteredData) =>
+										filteredData.map((item, index) => (
+											<div
+												className="col-12 col-sm-6 col-md-6 col-lg-6 mb-5"
+												data-aos="fade-up"
+												key={index}>
+												<h4 className="h4 mb-2">
+													{item.date}
+												</h4>
+												<p>{item.content}</p>
+											</div>
+										))
+									}
+								/>
+
+								{/* <div
 									className="col-12 col-sm-6 col-md-6 col-lg-6 mb-5"
 									data-aos="fade-up"
 									data-aos-delay="">
@@ -50,7 +83,7 @@ const News = () => {
 									data-aos-delay="100">
 									<h4 className="h4 mb-2">Jan 2023</h4>
 									<p>Lab Consultant with Dr. Bee Lehman.</p>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
