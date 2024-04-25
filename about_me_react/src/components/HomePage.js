@@ -57,7 +57,7 @@ const HomePage = () => {
 							</div>
 							<div className="col-4 col-sm-4 col-md-2 d-flex justify-content-center">
 								<a
-									href="https://finance.yahoo.com/quote/688227.SS/profile/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAFLvP35EWmuLwQhMegv_Qpe91B7g6LD0Eio5DgSf2LX6pqnQa4kiwJwiT_9bGb2Be7euhT_9XpqQKPGrqVpjGsUFqrdnNnO4t-4TMKLGNkXdOcIdplQds1H2lyVKc_n0HGUCXHJ4I3ya7H41qPgJ79hNl9QU65V7DyogyyIC4WuZ"
+									href="https://www.bingosoft.net/"
 									className="client-logo">
 									<img
 										src="img/Bingo_Logo.png"
