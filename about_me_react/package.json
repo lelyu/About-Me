@@ -1,5 +1,6 @@
 {
 	"name": "about_me_react",
+	"homepage": "https://lelyu.github.io/About-Me",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
