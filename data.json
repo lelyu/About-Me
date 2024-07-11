@@ -107,16 +107,16 @@
 	],
 	"news": [
 		{
-			"date": "March 2024",
-			"content": "Hit leetcode 300 questions."
+			"date": "May 2024",
+			"content": "Graduated from **Coston Bollege**"
 		},
 		{
 			"date": "Jan 2024",
-			"content": "TA for Algorithm with professor Alexander Creiner."
+			"content": "TA - Algorithm with professor Alexander Creiner."
 		},
 		{
 			"date": "Aug 2023",
-			"content": "TA for Data Visualization with professor Nam Wook Kim."
+			"content": "TA - Data Visualization with professor Nam Wook Kim."
 		},
 		{
 			"date": "Jan 2023",
@@ -137,7 +137,7 @@
 			"id": "project2",
 			"title": "What causes climate change?",
 			"category": "Data Visualization",
-			"imageSrc": "img/project-climate_change.jpg",
+			"imageSrc": "/img/project-climate_change.jpg",
 			"pageLink": "/projects/project2",
 			"filterType": "vis"
 		},
@@ -145,7 +145,7 @@
 			"id": "project3",
 			"title": "What model best predicts revenue for Domino's Pizza?",
 			"category": "Financial Forecasting",
-			"imageSrc": "img/project-dominos.jpg",
+			"imageSrc": "/img/project-dominos.jpg",
 			"pageLink": "/projects/project3",
 			"filterType": "fin"
 		},
@@ -153,7 +153,7 @@
 			"id": "project4",
 			"title": "Gmail Unstarrer",
 			"category": "Automation",
-			"imageSrc": "img/project-gmail_unstarrer-small.jpg",
+			"imageSrc": "/img/project-gmail_unstarrer-small.jpg",
 			"pageLink": "/projects/project4",
 			"filterType": "auto"
 		},
@@ -161,7 +161,7 @@
 			"id": "project5",
 			"title": "Google Drive Automation",
 			"category": "Automation",
-			"imageSrc": "img/project-google_drive-small.png",
+			"imageSrc": "/img/project-google_drive-small.png",
 			"pageLink": "/projects/project5",
 			"filterType": "auto"
 		},
@@ -169,7 +169,7 @@
 			"id": "project6",
 			"title": "Data Indexing Tool",
 			"category": "Data Indexing",
-			"imageSrc": "img/project-wtd.png",
+			"imageSrc": "/img/project-wtd.png",
 			"pageLink": "/projects/project6",
 			"filterType": "index"
 		}
