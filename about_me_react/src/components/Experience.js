@@ -1,24 +1,24 @@
-import React from "react";
+import React from 'react'
 
 const Experience = () => {
 	return (
-		<div className="section">
-			<div className="container">
-				<div className="row justify-content-center text-center mb-4">
-					<div className="col-5">
-						<h3 className="h3 heading">My Experience</h3>
+		<div className='section'>
+			<div className='container'>
+				<div className='row justify-content-center text-center mb-4'>
+					<div className='col-5'>
+						<h3 className='h3 heading'>My Experience</h3>
 						<p>
 							I love to learn new things and apply them to my work
 							and life
 						</p>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-12 col-sm-6 col-md-6 col-lg-3">
-						<i className="bi bi-card-checklist"></i>
-						<h4 className="h4 mb-2">Education</h4>
+				<div className='row'>
+					<div className='col-12 col-sm-6 col-md-6 col-lg-3'>
+						<i className='bi bi-card-checklist'></i>
+						<h4 className='h4 mb-2'>Education</h4>
 						<p>Boston College</p>
-						<ul className="list-unstyled list-line">
+						<ul className='list-unstyled list-line'>
 							<li>Class of 2024</li>
 							<li>GPA: 3.7</li>
 							<li>Dean's List</li>
@@ -26,11 +26,11 @@ const Experience = () => {
 							<li>Major: Economics (BA)</li>
 						</ul>
 					</div>
-					<div className="col-12 col-sm-6 col-md-6 col-lg-3">
-						<i className="bi bi-binoculars"></i>
-						<h4 className="h4 mb-2">Work Experience</h4>
+					<div className='col-12 col-sm-6 col-md-6 col-lg-3'>
+						<i className='bi bi-binoculars'></i>
+						<h4 className='h4 mb-2'>Work Experience</h4>
 						<p>Boston College and Bingo Software Co. Ltd.</p>
-						<ul className="list-unstyled list-line">
+						<ul className='list-unstyled list-line'>
 							<li>
 								Lab Consultant at Digital Humanities Lab, Boston
 								College (Jan 2023 - May 2024)
@@ -48,42 +48,35 @@ const Experience = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="col-12 col-sm-6 col-md-6 col-lg-3">
-						<i className="bi bi-brightness-high"></i>
-						<h4 className="h4 mb-2">Skills</h4>
+					<div className='col-12 col-sm-6 col-md-6 col-lg-3'>
+						<i className='bi bi-brightness-high'></i>
+						<h4 className='h4 mb-2'>Skills</h4>
 						<p>Coding and Business</p>
-						<ul className="list-unstyled list-line">
+						<ul className='list-unstyled list-line'>
 							<li>Coding Languages: Python, Java, JavaScript</li>
 							<li>Coding Frameworks: Django, React, Vue</li>
 							<li>Data Analysis: SPSS, Stata, R</li>
 							<li>Data Visualization: Tableau, D3.js</li>
-							<li>Others: MySQL, HTML, CSS, CI/CD</li>
+							<li>Others: MySQL, HTML, CSS</li>
 						</ul>
 					</div>
-					<div className="col-12 col-sm-6 col-md-6 col-lg-3">
-						<i className="bi bi-calendar4-week"></i>
-						<h4 className="h4 mb-2">Interests</h4>
-						<p>A lot</p>
-						<ul className="list-unstyled list-line">
+					<div className='col-12 col-sm-6 col-md-6 col-lg-3'>
+						<i className='bi bi-calendar4-week'></i>
+						<h4 className='h4 mb-2'>Interests</h4>
+						<p>History, Language, and Culture</p>
+						<ul className='list-unstyled list-line'>
 							<li>
 								Learning a new language: currently I speak
 								English, Mandarin, and Cantonese.
 							</li>
-							<li>
-								League of Legends (ID: Lok852): I led the BC
-								team against NEU and BU in my freshmen year.
-							</li>
-							<li>
-								Cats: we own a 5-month old Golden British Long
-								Hair
-							</li>
+
 							<li>Chess: Recreational but competitive player</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	);
-};
+	)
+}
 
-export default Experience;
+export default Experience

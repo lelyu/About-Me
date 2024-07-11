@@ -7,17 +7,29 @@ const Projects = () => {
 	const [projects, setProjects] = useState([])
 	const [searchText, setSearchText] = useState('')
 	const [filterKey, setFilterKey] = useState('*')
+	const [isDataLoaded, setIsDataLoaded] = useState(false)
 
 	useEffect(() => {
-		// Fetch the data.json file from the public folder
-		fetch(`${process.env.PUBLIC_URL}/data.json`)
-			.then((response) => {
-				console.log('---->', response)
-				return response.json()
-			})
-			.then((data) => {
+		const fetchData = async () => {
+			try {
+				const response = await fetch(
+					`${process.env.PUBLIC_URL}/data.json`
+				)
+				if (!response.ok) {
+					throw new Error('Network response was not ok')
+				}
+				const data = await response.json()
 				setProjects(data.initialProjects)
-			})
+				setIsDataLoaded(true)
+			} catch (error) {
+				console.error(
+					'There has been a problem with your fetch operation:',
+					error
+				)
+			}
+		}
+
+		fetchData()
 	}, [])
 
 	const filteredProjects = projects.filter((project) => {
@@ -34,8 +46,10 @@ const Projects = () => {
 	})
 
 	useEffect(() => {
-		AOS.refresh()
-	}, [filteredProjects])
+		if (isDataLoaded) {
+			AOS.refresh()
+		}
+	}, [isDataLoaded, filteredProjects])
 
 	const handleSearchChange = (e) => {
 		setSearchText(e.target.value)
@@ -43,6 +57,10 @@ const Projects = () => {
 
 	const handleFilterClick = (filter) => {
 		setFilterKey(filter)
+	}
+
+	if (!isDataLoaded) {
+		return <div>Loading...</div>
 	}
 
 	return (

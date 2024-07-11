@@ -4,14 +4,24 @@ import SearchBar from './SearchBar'
 const News = () => {
 	const [news, setNews] = useState(null)
 	useEffect(() => {
-		// Fetch the data.json file from the public folder
-		fetch(process.env.PUBLIC_URL + '/data.json')
-			.then((response) => {
-				return response.json()
-			})
-			.then((data) => {
+		const fetchNews = async () => {
+			try {
+				const response = await fetch(
+					`${process.env.PUBLIC_URL}/data.json`
+				)
+				if (!response.ok) {
+					throw new Error('Network response was not ok')
+				}
+				const data = await response.json()
 				setNews(data.news)
-			})
+			} catch (error) {
+				console.error(
+					'There has been a problem with your fetch operation:',
+					error
+				)
+			}
+		}
+		fetchNews()
 	}, [])
 
 	if (!news) {

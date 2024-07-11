@@ -13,10 +13,8 @@ const AboutMePage = () => {
 							<div className='col-md-6' data-aos='fade-up'>
 								<h2>About Me</h2>
 								<p className='mb-0'>
-									I am a teaching assistant of the course
-									Algorithm at Boston College. I also work as
-									a Lab Consultant in the Digital Humanities
-									Lab.
+									Currently based in Massachusetts, I'm an
+									aspiring web developer.
 								</p>
 							</div>
 						</div>
@@ -25,11 +23,11 @@ const AboutMePage = () => {
 							<div
 								className='col-md-4 ml-auto order-2'
 								data-aos='fade-up'>
-								<h3 className='h3 mb-4'>Dev Tools I know:</h3>
+								<h3 className='h3 mb-4'>Skills</h3>
 								<ul className='list-unstyled'>
 									<li className='mb-3'>
 										<div className='d-flex mb-1'>
-											<strong>React</strong>
+											<strong>Node</strong>
 										</div>
 										<div className='progress custom-progress'>
 											<div
@@ -49,7 +47,7 @@ const AboutMePage = () => {
 											<div
 												className='progress-bar'
 												role='progressbar'
-												style={{ width: '70%' }}
+												style={{ width: '90%' }}
 												aria-valuenow='96'
 												aria-valuemin='0'
 												aria-valuemax='100'></div>
@@ -57,13 +55,13 @@ const AboutMePage = () => {
 									</li>
 									<li className='mb-3'>
 										<div className='d-flex mb-1'>
-											<strong>Django</strong>
+											<strong>Express</strong>
 										</div>
 										<div className='progress custom-progress'>
 											<div
 												className='progress-bar'
 												role='progressbar'
-												style={{ width: '60%' }}
+												style={{ width: '70%' }}
 												aria-valuenow='99'
 												aria-valuemin='0'
 												aria-valuemax='100'></div>
@@ -71,7 +69,7 @@ const AboutMePage = () => {
 									</li>
 									<li className='mb-3'>
 										<div className='d-flex mb-1'>
-											<strong>Spring</strong>
+											<strong>MongoDB</strong>
 										</div>
 										<div className='progress custom-progress'>
 											<div
@@ -97,13 +95,13 @@ const AboutMePage = () => {
 										}
 										alt='img'
 										className='img-fluid'
+										id='my-photo'
 									/>
 								</p>
 								<p>
-									I like to apply technology in the business
-									world and help others.
+									I would love to apply my skills to help
+									others.
 								</p>
-								<p>In work, I value respect the most.</p>
 							</div>
 						</div>
 					</div>

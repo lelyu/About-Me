@@ -21,7 +21,6 @@ const SingleProjectPage = () => {
 	if (!projectData) {
 		return <div>Loading...</div>
 	}
-	console.log('.....', projectData)
 	return (
 		<div>
 			<NavBar />
