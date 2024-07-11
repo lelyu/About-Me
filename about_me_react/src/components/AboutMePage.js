@@ -91,7 +91,10 @@ const AboutMePage = () => {
 								data-aos='fade-up'>
 								<p>
 									<img
-										src='img/my_photo.png'
+										src={
+											process.env.PUBLIC_URL +
+											'/img/my_photo.png'
+										}
 										alt='img'
 										className='img-fluid'
 									/>
