@@ -20,10 +20,11 @@ const HomePage = () => {
 							<div className='col-lg-12'>
 								<h2>Hi, I'm Le</h2>
 								<p>
-									I graduated from Boston College in May 2024.
-									I currently make websites for small local
-									businesses in Massachusetts as an
-									independent developer.
+									Thank you for visiting my portfolio page.
+									Here, I try to create useful tools and
+									applications that can help people in their
+									daily life. There is a lot more to come, so
+									stay tuned!
 								</p>
 							</div>
 						</div>
@@ -33,9 +34,9 @@ const HomePage = () => {
 					<Projects />
 				</section>
 
-				<section className='section services'>
+				{/* <section className='section services'>
 					<Experience />
-				</section>
+				</section> */}
 				<News />
 			</main>
 

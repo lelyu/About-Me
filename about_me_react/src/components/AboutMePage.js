@@ -13,8 +13,7 @@ const AboutMePage = () => {
 							<div className='col-md-6' data-aos='fade-up'>
 								<h2>About Me</h2>
 								<p className='mb-0'>
-									Currently based in Massachusetts, I'm an
-									aspiring web developer.
+									I currently live in Belmont, Massachusetts.
 								</p>
 							</div>
 						</div>
@@ -23,7 +22,9 @@ const AboutMePage = () => {
 							<div
 								className='col-md-4 ml-auto order-2'
 								data-aos='fade-up'>
-								<h3 className='h3 mb-4'>Skills</h3>
+								<h3 className='h3 mb-4'>
+									Things I have been learning
+								</h3>
 								<ul className='list-unstyled'>
 									<li className='mb-3'>
 										<div className='d-flex mb-1'>
@@ -41,7 +42,7 @@ const AboutMePage = () => {
 									</li>
 									<li className='mb-3'>
 										<div className='d-flex mb-1'>
-											<strong>Vue</strong>
+											<strong>React</strong>
 										</div>
 										<div className='progress custom-progress'>
 											<div
@@ -97,10 +98,6 @@ const AboutMePage = () => {
 										className='img-fluid'
 										id='my-photo'
 									/>
-								</p>
-								<p>
-									I would love to apply my skills to help
-									others.
 								</p>
 							</div>
 						</div>
